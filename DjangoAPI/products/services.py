@@ -15,6 +15,8 @@ class ProductService:
         Create a new product with the provided data.
         Returns a success flag and serialized product data or errors.
         """
+
+        # hello now 
         serializer = ProductSerializer(data=data)
         if serializer.is_valid():
             product = await sync_to_async(serializer.save)()
