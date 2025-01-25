@@ -15,6 +15,14 @@ class ProductService:
         Create a new product with the provided data.
         Returns a success flag and serialized product data or errors.
         """
+        "aayush bajracharya"
+
+
+
+
+
+
+        
 
         # hello now 
         serializer = ProductSerializer(data=data)
